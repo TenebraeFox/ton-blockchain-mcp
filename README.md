@@ -31,7 +31,6 @@ cd ton-blockchain-mcp
 ```bash
 pip install -r requirements.txt
 ```
-### Installation Notes
 
 If you encounter an error while installing the `crc16` package, such as:
 ```bash
@@ -41,10 +40,7 @@ this indicates that your system is missing the **GCC compiler**, which is requir
 
 Install the necessary build tools for your operating system:
 
-#### Debian/Ubuntu
-
 ```bash
-sudo apt update
 sudo apt install build-essential
 ```
 3. Set up environment variables:
