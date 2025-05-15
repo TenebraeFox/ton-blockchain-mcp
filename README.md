@@ -31,7 +31,22 @@ cd ton-blockchain-mcp
 ```bash
 pip install -r requirements.txt
 ```
+### Installation Notes
 
+If you encounter an error while installing the `crc16` package, such as:
+```bash
+error: command 'x86_64-linux-gnu-gcc' failed: No such file or directory
+```
+this indicates that your system is missing the **GCC compiler**, which is required to build the package from source.
+
+Install the necessary build tools for your operating system:
+
+#### Debian/Ubuntu
+
+```bash
+sudo apt update
+sudo apt install build-essential
+```
 3. Set up environment variables:
 * You might want to put the API key in .env as well
 ```bash
