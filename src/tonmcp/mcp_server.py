@@ -8,10 +8,10 @@ from dotenv import load_dotenv
 
 from mcp.server.fastmcp import FastMCP
 
-from tonmcp.ton_client import TonClient
-from tonmcp.prompts import PromptManager
-from tonmcp.tools import ToolManager
-from tonmcp.utils import parse_natural_language_query
+from .ton_client import TonClient
+from .prompts import PromptManager
+from .tools import ToolManager
+from .utils import parse_natural_language_query
 
 load_dotenv()
 
